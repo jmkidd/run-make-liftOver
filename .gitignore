@@ -9,6 +9,8 @@ chainRaw/
 net/
 over/
 logs/
+
+blat*cmds
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
