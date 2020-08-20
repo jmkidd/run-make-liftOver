@@ -1,10 +1,10 @@
-liftName canFam3.1ToTasha_Dog10K_Boxer_Tasha_1.0.KP081776.1
-oldRef canFam3.1.fa
-oldFai canFam3.1.fa.fai
-oldOOC canFam3.1.11.ooc
-oldChromsDir old-chroms/
-newChromsDir /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/by-chrom/
-newFai /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/ref/Dog10K_Boxer_Tasha_1.0.KP081776.1.fa.fai
+liftName Dog10K_Boxer_Tasha_1.0.KP081776.1TocanFam3.1
+oldRef /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/ref/Dog10K_Boxer_Tasha_1.0.KP081776.1.fa
+oldFai /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/ref/Dog10K_Boxer_Tasha_1.0.KP081776.1.fa.fai
+oldOOC /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/ref/11.ooc
+oldChromsDir /home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/by-chrom/
+newChromsDir canfam-by-chrom/
+newFai /home/jmkidd/links/kidd-lab/genomes/canFam3.1/canFam3.1-noY/canFam3.1.fa.fai
 chunksDir chunks/
 liftDir lift/
 blatOutDir blatRun/
