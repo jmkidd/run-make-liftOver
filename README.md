@@ -44,7 +44,7 @@ python write-blat-cmds.py
 this makes three files of blat cmds to be run on the cluster
 one is of same vs same chroms, these take a longer time to run,
 one is of chroms vs chroms
-one involes 'unplaced' chroms, may need to edit python script to get names right
+one involves 'unplaced' chroms, may need to edit python script to get names right
 
 [jmkidd@gl-login1 run-make-liftOver]$ wc blat*cmds
    133948   1071584  38140926 blat.REST.cmds
