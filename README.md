@@ -38,11 +38,19 @@ overDir over/
 python split-new-to-chunks.py
 
 # Step 2, write blat cmds
-blat NEW vs OLD (of is the database, uses old 11.ooc file.), minScore=100 and minIdentity=95
+blat NEW vs OLD (old is the database, uses old 11.ooc file.), minScore=100 and minIdentity=95
 python write-blat-cmds.py
 
-# for this redo, will take just chrY
-cat blat.REST.cmds blat.SAME.cmds blat.UNK.cmds | grep chrY > blat.Y.cmds
+this makes three files of blat cmds to be run on the cluster
+one is of same vs same chroms, these take a longer time to run,
+one is of chroms vs chroms
+one involes 'unplaced' chroms, may need to edit python script to get names right
+
+[jmkidd@gl-login1 run-make-liftOver]$ wc blat*cmds
+   133948   1071584  38140926 blat.REST.cmds
+       40       320     10436 blat.SAME.cmds
+   349676   2797408 101646270 blat.UNK.cmds
+
 
 
 # Step 3
