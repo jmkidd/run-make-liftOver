@@ -52,12 +52,26 @@ one involves 'unplaced' chroms, may need to edit python script to get names righ
    349676   2797408 101646270 blat.UNK.cmds
 
 
+check completion:
+[jmkidd@gl-login2 run-make-liftOver]$ dircnt_args blatRun/
+blatRun/ contains 483664 files
+sum: 483664
+
+
 
 # Step 3
 run liftUp to convert psl output files from blat chunks to original chromosome coordinates
 python run-liftUp.py
 
-/home/jmkidd/links/kidd-lab/genomes/tasha/make-liftover/canFam3.1ToTasha_CanFam4
+use python run-liftUp.py --file 
+there are lots of cmds!
+
+[jmkidd@gl3207 run-make-liftOver]$ wc liftUp.cmds
+  3268  19608 320211 liftUp.cmds
+
+
+
+
 
 # Step 4 run axtcCain to chain together alignments
 python run-chain.py
