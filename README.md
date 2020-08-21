@@ -70,9 +70,6 @@ there are lots of cmds!
   3268  19608 320211 liftUp.cmds
 
 
-
-
-
 # Step 4 run axtcCain to chain together alignments
 python run-chain.py
 edit to be write-run-chain.py
@@ -91,15 +88,13 @@ python run-chainNet.py
 # Step 7 run netChainSubset
 this gets only the chains that appear in the net
 
+python run-netChainSubset.py
+
+
 # Step 8 cat together chains and gzip
 python combine-over.py
 
-Complete!  liftover chain file is canFam3.1ToTasha_Dog10K_Boxer_Tasha_1.0.KP081776.1.chain.gz
+Complete!  liftover chain file is Dog10K_Boxer_Tasha_1.0.KP081776.1TocanFam3.1.chain.gz
 
-setup github and run in other dir
-/home/jmkidd/links/kidd-lab/genomes/Dog10K_Boxer_Tasha_1.0.KP081776.1/make-liftOver
-https://github.com/jmkidd/run-make-liftOver.git
-
-mv canFam3.1ToTasha_Dog10K_Boxer_Tasha_1.0.KP081776.1.chain.gz canFam3.1ToDog10K_Boxer_Tasha_1.0.KP081776.1.chain.gz
 
 
